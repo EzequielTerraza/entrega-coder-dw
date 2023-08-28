@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión.</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" type="image/x-icon" href="../imgs/csicon.png">
+</head>
+
+<body>
+    <header> 
+        <strong class="titulo">
+            <p>LOS VAGOS</p>
+        </strong> 
+    </header>
+
+    <div>
+        <p class="cuenta"> 
+            <a href="../pages/sesion.html" class="cuenta urlC">
+                Iniciar sesión
+            </a>
+        </p>
+        <p class="cuenta">
+            ¿No tenés cuenta?
+            <a href="../pages/register.html" class="cuenta urlC">
+                Registrate
+            </a> 
+        </p>
+    </div>
+
+    <div>
+        <ul class="barra">
+            <li> <a href="../index.html" class="navegacion">Inicio</a></li>
+            <li> <a href="../pages/contact.html" class="navegacion">Contacto</a></li>
+            <li> <a href="../pages/rangos.html" class="navegacion">Rangos</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <h3 class="tituloS">REGISTRATE</h3>
+
+        <form class="formulariosesion">
+            <label for="tag">
+                Ingresá tu Tag *
+                <input type="text" id="tag" required>
+            </label>
+
+            <label for="contraseña">
+                Ingresá tu Contraseña *
+                <input type="password" id="contraseña" required>
+            </label>
+            
+            <label for="email">
+                Ingresá tu Correo
+                <input type="email" id="email">
+            </label>
+            <label for="numero">
+                Ingresá tu Número
+                <input type="number" id="numero">
+            </label>
+
+            <label for=""> 
+                ¿Aceptas los terminos y condiciones? *
+                <input type="checkbox" name="tyc" id="tyc" required>
+            </label>
+
+
+            <button type="submit">Registrarse</button>
+            <p>"*" = Obligatorio</p>
+        </form>
+        
+    </div>
+
+    <footer class="footer">
+
+        Servidor hosteado por 4evergaming.
+
+    </footer>
+ 
+</body>
+
+</html>

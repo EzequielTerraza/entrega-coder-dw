@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'cs';
+    src: url(../font/cs_regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-image: url(../imgs/fondocs.webp);
+    background-position: center;
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.titulo {
+    font-family: 'cs';
+    color: #08A045;
+    font-size: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 4rem;
+}
+
+.tituloS {
+    background-color: black;
+    color: white;
+    display: flex;
+    
+    justify-content: space-around;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    padding: 1rem;
+}
+
+.box {
+    background-color: rgb(0, 0, 70);
+
+    border-top: 4px solid rgb(99, 99, 255);
+    border-right: 4px solid rgb(99, 99, 255);
+    border-bottom: 4px solid blue;
+    border-left: 4px solid blue;
+
+    margin-bottom: 1rem;
+
+    width: 100%;
+
+    display: inline-block;
+    margin-inline: 1rem;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* *********************************************************** */
+
+.cuenta {
+    color: orange;
+
+    display: flex;
+
+    justify-content: end;
+    align-items: baseline;
+
+}
+
+.urlC {
+    background-color: black;
+    margin-inline: .5rem 0.5rem;
+
+    border-top: 4px solid gray;
+    border-right: 4px solid grey;
+    border-bottom: 4px solid gray;
+    border-left: 4px solid gray;
+
+    padding: .5rem;
+
+    border-radius: 8px; /* con "%" se dobla ese %*/
+
+    display: block;
+}
+
+/* *********************************************************** */
+
+.barra {
+    list-style-type: none;
+
+    padding-right: 1rem;
+    margin: 1rem;
+
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: end;
+    align-items: baseline;
+    align-content: end;
+
+    gap: .5rem;
+}
+
+.navegacion {
+    color: orange;
+    background-color: black;
+    padding: 8px;
+
+    border: 4px solid rgb(100, 100, 100);
+    border-radius: 16px;
+}
+
+/* *********************************************************** */
+
+.listado {
+    color: white;
+
+    display: flex;
+    
+    justify-content: space-around;
+    
+    padding: 1rem;
+}
+
+.ipserver {
+    list-style-type: none;
+    color: aquamarine;
+}
+
+/* *********************************************************** */
+
+.footer {
+    background-color: black;
+
+    color: grey;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+    width: auto;
+}
+
+.contactos {
+    list-style-type: none;
+    color: aquamarine;
+
+    margin-top: 1rem;
+
+    display: flex;
+
+    align-content: space-around;
+    
+}
+
+/* *********************************************************** */
+
+.rangos {
+    list-style-type: none;
+    color: aquamarine;
+
+    margin-top: 1rem;
+
+    display: flex;
+
+    align-content: space-around;
+}
+
+.beneficiosRangos {
+    position: relative;
+    left: 16px;
+}
+
+/* *********************************************************** */
+
+.formulariosesion {
+
+    color: white;
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+/* *********************************************************** */
